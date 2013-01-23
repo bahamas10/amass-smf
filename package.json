@@ -1,0 +1,25 @@
+{
+  "name": "amass-smf",
+  "description": "A plugin for amass to expose SMF service information",
+  "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": "",
+  "keywords": [
+    "amass",
+    "ohai",
+    "facter",
+    "puppet",
+    "smartos",
+    "solaris",
+    "smf",
+    "svcs",
+    "illumos"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "smf": "~0.1.10"
+  }
+}
